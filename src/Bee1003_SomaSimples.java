@@ -8,14 +8,14 @@ public class Bee1003_SomaSimples {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		int A, B, SOMA;
+		int A, B, soma;
 
 		A = sc.nextInt();
 		B = sc.nextInt();
 
-		SOMA = A + B;
+		soma = A + B;
 
-		System.out.println("SOMA = " + SOMA);
+		System.out.println("SOMA = " + soma);
 
 		sc.close();
 

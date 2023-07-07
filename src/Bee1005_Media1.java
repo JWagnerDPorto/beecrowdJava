@@ -1,22 +1,20 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Bee1004_ProdutoSimples {
+public class Bee1005_Media1 {
 
 	public static void main(String[] args) {
-		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		int A, B, PROD;
+		double A, B, MEDIA;
 		
-		A = sc.nextInt();
-		B = sc.nextInt();
+		A = sc.nextDouble();
+		B = sc.nextDouble();
 		
-		PROD = A * B;
+		MEDIA = (A * 3.5 + B * 7.5) / 11.0;
 		
-		System.out.println("PROD = " + PROD);
-		
+		System.out.printf("MEDIA = %.5f%n", MEDIA);
 		
 		sc.close();
 
