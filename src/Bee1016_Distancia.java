@@ -1,24 +1,19 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Bee1014_Consumo {
+public class Bee1016_Distancia {
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		int X;
-		double Y, consumo;
+		int distancia, minutos;
 		
+		distancia = sc.nextInt();
 		
-		X = sc.nextInt();
-		Y = sc.nextDouble();
+		minutos = distancia * 2;
 		
-		
-		consumo = X / Y;
-		
-		System.out.printf("%.3f km/l%n", consumo);
-		
+		System.out.printf("%d minutos%n", minutos);
 		
 		sc.close();
 
