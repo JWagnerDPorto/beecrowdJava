@@ -7,12 +7,12 @@ public class Bee1011_Esfera {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		double R, pi, volume;
+		double raio, pi, volume;
 		
 		pi = 3.14159;
-		R = sc.nextDouble();
+		raio = sc.nextDouble();
 		
-		volume = (4 / 3.0) * pi * (R * R * R);
+		volume = (4 / 3.0) * pi * Math.pow(raio, 3.0);
 		
 		System.out.printf("VOLUME = %.3f%n", volume);
 		
