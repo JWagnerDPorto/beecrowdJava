@@ -7,10 +7,20 @@ public class Bee1046_TempoDeJogo {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		int horainicial, horafinal;
+		int horaInicial, horaFinal, duracao;
 		
-		horainicial = sc.nextInt();
-		horafinal = sc.nextInt();
+		horaInicial = sc.nextInt();
+		horaFinal = sc.nextInt();
+		
+		if (horaInicial < horaFinal) {
+			duracao = horaFinal - horaInicial;
+		}
+		else {
+			duracao = (24 - horaInicial) + horaFinal;
+		}
+		
+		
+		System.out.printf("O JOGO DUROU %d HORA(S)%n", duracao);
 		
 		
 		
