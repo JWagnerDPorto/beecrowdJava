@@ -25,8 +25,6 @@ public class Bee1159_SomaParesConsecutivos {
 			X = sc.nextInt();
 		}
 		
-	
-		
 		sc.close();
 
 	}
