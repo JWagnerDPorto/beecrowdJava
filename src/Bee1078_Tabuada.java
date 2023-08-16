@@ -10,11 +10,13 @@ public class Bee1078_Tabuada {
 		
 		int N = sc.nextInt();
 		
-		for (int i = 1; i <= 10; i ++) {
-			int produto = i * N;
-			System.out.println(i + " x " + N + " = " + produto);
-			
+		if (N > 2 && N < 1000) {
+			for (int i = 1; i <= 10; i ++) {
+				int produto = i * N;
+				System.out.println(i + " x " + N + " = " + produto);
+			}
 		}
+		
 		
 		sc.close();
 	}
